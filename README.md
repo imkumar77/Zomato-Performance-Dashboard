@@ -55,7 +55,7 @@ The Zomato Analytics Dashboard is designed to help internal stakeholders underst
 
 ## Dataset Overview
 
-- You can get Dataset from here :
+- You can get Dataset from here: https://github.com/imkumar77/Zomato-Performance-Dashboard/blob/main/Zomato.xlsx
 
 The project uses the following datasets:
 
