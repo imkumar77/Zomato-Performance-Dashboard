@@ -17,8 +17,6 @@ The Zomato Analytics Dashboard is designed to help internal stakeholders underst
 
 - Here is BRD File: https://github.com/imkumar77/Zomato-Performance-Dashboard/blob/main/Zomato_BRD.docx
 
----
-
 ### Project Objectives
 - Provide insights into food delivery, customer satisfaction, and restaurant reviews.
 - Improve decision-making for operations, marketing, and restaurant stakeholders.
@@ -63,27 +61,24 @@ The project uses the following datasets:
 - **Restaurant Dataset**: Includes `Restaurant_Name`, `Location`, `Ratings`, `Reviews`, and `Cuisine`.
 - **Reviews Dataset**: Contains `Review_Text`, `Ratings`, `Review_Date`, and `Customer_Feedback`.
 
----
 
-## Database Setup
+### Database Setup
 
 - The data was loaded into Power BI from flat files (Excel/CSV).
 - Power Query was used for transformation and cleaning.
 - DAX was used to create calculated columns and measures.
 - Relationships were established between tables based on keys such as `Restaurant_Name` and `Order_ID`.
 
----
 
-##  Data Cleaning & Preparation
+###  Data Cleaning & Preparation
 
 - Removed nulls and duplicates.
 - Standardized categorical data like `City`, `Cuisine`, and `Rating`.
 - Converted numerical fields to consistent units (e.g., INR → Millions).
 - Created KPIs and calculated fields using DAX (e.g., `Average Delivery Time`, `AOV`, `Rating Bucket`).
 
----
 
-## Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 
 Exploratory visualizations were built to examine:
 
@@ -93,9 +88,8 @@ Exploratory visualizations were built to examine:
 - Cuisine performance
 - Average delivery times by location
 
----
 
-##  Analysis Objectives
+###  Analysis Objectives
 
 - Track order and delivery performance
 - Monitor restaurant reviews and customer ratings
@@ -103,9 +97,8 @@ Exploratory visualizations were built to examine:
 - Visualize key data points for quick decision-making
 - Improve operational efficiency using KPIs
 
----
 
-## Key Concepts Used
+### Key Concepts Used
 
 - DAX Measures and Calculated Columns
 - KPIs: Total Orders, AOV, Ratings, Delivery Time
@@ -114,9 +107,7 @@ Exploratory visualizations were built to examine:
 - Drill-down Analysis
 - Interactive Dashboards and Slicers
 
----
-
-## Tools & Technologies
+### Tools & Technologies
 
 - **Power BI Desktop**
 - **Power Query**
@@ -126,6 +117,12 @@ Exploratory visualizations were built to examine:
 
 ---
 
+## Working Dashboard Link
+
+  https://github.com/imkumar77/Zomato-Performance-Dashboard/blob/main/Zomato%20Performance%20Dashboard.pbix
+
+---
+  
 ## Insights & Findings
 
 - Most popular cuisines: North Indian, Chinese
@@ -144,5 +141,4 @@ This dashboard helps Zomato's teams and stakeholders gain a consolidated view of
 
 
 
-## 📁 Folder Structure (Suggestion)
 
