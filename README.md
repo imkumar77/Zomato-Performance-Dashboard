@@ -43,10 +43,20 @@ The Zomato Analytics Dashboard is designed to help internal stakeholders underst
 - Discount Applied
 
 ### Stakeholders
-- Business Analysts
-- Operations Team
-- Marketing Team
-- Restaurant Owners
+| Role              | Function                                      |
+|-------------------|-----------------------------------------------|
+| Business Analysts | Analyze and report on performance metrics     |
+| Operations Team   | Track logistics and delivery efficiency       |
+| Marketing Team    | Understand customer behavior & plan campaigns|
+| Restaurant Owners | Review performance and customer feedback      |
+
+### Risks & Mitigations
+
+| Risk               | Mitigation Strategy                                |
+|--------------------|-----------------------------------------------------|
+| Data inconsistency | Use validation rules in Power Query                |
+| Performance issues | Optimize model, use aggregations                   |
+| Scope creep        | Lock requirements before development               |
 
 ---
 
@@ -108,13 +118,46 @@ Exploratory visualizations were built to examine:
 - Drill-down Analysis
 - Interactive Dashboards and Slicers
 
+### Key Performance Indicators (KPIs)
+
+| KPI Name                    | Description                                             |
+|-----------------------------|---------------------------------------------------------|
+| Total Orders               | Count of all completed orders                           |
+| Average Delivery Time      | Mean delivery duration across selected timeframe        |
+| Average Order Value (AOV)  | Total revenue ÷ total number of orders                  |
+| Customer Satisfaction      | Average rating from customer reviews                    |
+| Discount Utilization Rate  | % of orders with discounts applied                      |
+
+
 ### Tools & Technologies
 
-- **Power BI Desktop**
-- **Power Query**
-- **DAX**
-- **Microsoft Excel**
-- **Data Visualization & KPI Modeling**
+| Tool         | Purpose                                |
+|--------------|----------------------------------------|
+| Power BI     | Dashboard development and visualization|
+| Power Query  | Data cleaning and transformation       |
+| DAX          | KPI & metric calculation               |
+| Excel        | Data source format                     |
+
+### Visualizations
+
+| Chart Name                 | Type          | Description                                        |
+|----------------------------|---------------|----------------------------------------------------|
+| Total Orders Trend         | Line Chart     | Order trend over time                              |
+| Delivery Time Analysis     | Bar Chart      | Average delivery by city                           |
+| Top Restaurants            | Horizontal Bar | Top 10 restaurants by revenue                      |
+| Ratings Distribution       | Pie/Bar Chart  | Breakdown of ratings (1 to 5 stars)                |
+| Cuisine Popularity         | Bar Chart      | Most ordered cuisines                              |
+
+
+## Filters
+
+| Filter Name       | Description                                  |
+|-------------------|----------------------------------------------|
+| Date Range        | Filter by daily/weekly/monthly/yearly data   |
+| City/Location     | Filter by customer or restaurant city        |
+| Cuisine Type      | Focus on specific cuisines                   |
+| Rating Range      | View restaurants within selected rating range|
+| Discount Applied  | Filter based on discount usage               |
 
 ---
 
@@ -141,7 +184,11 @@ Exploratory visualizations were built to examine:
 
 This dashboard helps Zomato's teams and stakeholders gain a consolidated view of platform performance. The findings can improve restaurant partnerships, target marketing campaigns, and fine-tune customer service strategies.
 
+---
 
+## License
+
+This project is licensed under the MIT License.
 
 
 
