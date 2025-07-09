@@ -57,10 +57,11 @@ The Zomato Analytics Dashboard is designed to help internal stakeholders underst
 
 The project uses the following datasets:
 
-- **Orders Dataset**: Contains `Order_ID`, `Customer_Name`, `Location`, `Restaurant_Name`, `Cuisine`, `Order_Date`, `Delivery_Time`, `Order_Amount`, and `Is_Discount_Applied`.
-- **Restaurant Dataset**: Includes `Restaurant_Name`, `Location`, `Ratings`, `Reviews`, and `Cuisine`.
-- **Reviews Dataset**: Contains `Review_Text`, `Ratings`, `Review_Date`, and `Customer_Feedback`.
-
+| Dataset Name      | Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| Orders Dataset    | Order details including date, customer, restaurant, cuisine, amount, etc.   |
+| Restaurant Dataset| Restaurant details like name, location, ratings, and cuisine                |
+| Reviews Dataset   | Customer feedback including rating, review date, and text 
 
 ### Database Setup
 
@@ -121,6 +122,9 @@ Exploratory visualizations were built to examine:
 
   https://github.com/imkumar77/Zomato-Performance-Dashboard/blob/main/Zomato%20Performance%20Dashboard.pbix
 
+  ![Zomato Dashboard](https://github.com/user-attachments/assets/f1bd1b00-f50b-4777-9588-3238733b6c77)
+
+
 ---
   
 ## Insights & Findings
@@ -133,11 +137,11 @@ Exploratory visualizations were built to examine:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This dashboard helps Zomato's teams and stakeholders gain a consolidated view of platform performance. The findings can improve restaurant partnerships, target marketing campaigns, and fine-tune customer service strategies.
 
----
+
 
 
 
