@@ -15,7 +15,10 @@ The Zomato Analytics Dashboard is designed to help internal stakeholders underst
 
 ## Business Requirement Document (BRD)
 
-- Here is BRD File: 
+- Here is BRD File: BRD_Link
+
+---
+
 ### Project Objectives
 - Provide insights into food delivery, customer satisfaction, and restaurant reviews.
 - Improve decision-making for operations, marketing, and restaurant stakeholders.
