@@ -15,7 +15,7 @@ The Zomato Analytics Dashboard is designed to help internal stakeholders underst
 
 ## Business Requirement Document (BRD)
 
-- Here is BRD File: BRD_Link
+- Here is BRD File: https://github.com/imkumar77/Zomato-Performance-Dashboard/blob/main/Zomato_BRD.docx
 
 ---
 
@@ -54,6 +54,8 @@ The Zomato Analytics Dashboard is designed to help internal stakeholders underst
 
 
 ## Dataset Overview
+
+- You can get Dataset from here :
 
 The project uses the following datasets:
 
